@@ -11,17 +11,12 @@ const workerConfig = {
   passwordProtection: 'username:password',
   monitors: [
     {
-      id: 'google_monitor',
-      name: 'My Google Monitor',
+      id: 'ss_monitor',
+      name: 'My SS Monitor',
       method: 'GET',
-      target: 'https://www.google.com'
+      target: 'https://ss.yunt.in'
     },
-    {
-      id: 'ssh_monitor',
-      name: 'Example SSH Monitor',
-      method: 'TCP_PING',
-      target: '1.2.3.4:22'
-    },
+
   ],
   callbacks: {
     onStatusChange: async (
