@@ -53,7 +53,6 @@ export default function Home({
       </Head>
 
       <main className={inter.className}>
-        <Header />
 
         {state === undefined ? (
           <Center>
