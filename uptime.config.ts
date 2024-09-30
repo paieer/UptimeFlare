@@ -14,7 +14,8 @@ const workerConfig = {
       id: 'ss_monitor',
       name: 'My SS Monitor',
       method: 'GET',
-      target: 'https://ss.yunt.in'
+      target: 'https://ss.yunt.in',
+      checkLocationWorkerRoute: 'https://jp.letspeed.net',
     },
 
   ],
