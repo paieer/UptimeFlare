@@ -15,9 +15,14 @@ const workerConfig = {
       name: 'My SS Monitor',
       method: 'GET',
       target: 'https://ss.yunt.in',
-      checkLocationWorkerRoute: 'https://worker-us.letspeed.net',
+      // checkLocationWorkerRoute: 'https://worker-us.letspeed.net',
     },
-
+    {
+      id: 'backyard_monitor',
+      name: 'backyard',
+      method: 'GET',
+      target: 'https://www.backyardproduct.com.cn',
+    },
   ],
   callbacks: {
     onStatusChange: async (
